@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+body{ 
+    font-family: EB Garamond;
+color: rgb(90, 88, 88);
+}
+header{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #6586a1;
+    text-transform: uppercase;
+}
+nav ul{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav a{
+    color: grey;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav a:hover{
+    color:  #6586a1;
+}
+h1{
+    font-size: 4rem;
+     letter-spacing: 15px;
+}
+h1 a{
+     color: #6586a1;
+     text-decoration: none;
+}
+h1 a:hover{
+    color: #889bae;
+}
+.wrapper{
+ background-color: hsl(207, 85%, 97%);
+ text-align: center;
+ padding: 1rem;
+}
+
+span{
+    font-weight: bold;
+}
+img{
+    max-width: 200px;
+    border-radius: 50%;
+}
+.social-link-list{
+    text-align: center;
+}
+footer{
+    background-color: #424256;
+    padding: 2rem;
+}
+.fa-x-twitter{
+  color: white;
+}
+.fa-x-twitter:hover{
+    color: black;
+}
+.fa-instagram{
+  color: white;
+}
+.fa-instagram:hover{
+    color: black;
+}
+
+/* default is mobile */
+@media (min-width: 550px) {
+.hero-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    line-height: 20px;
+     padding: 2rem;
+}
+img{
+      justify-self: end;
+  
+}
+p{
+    max-width: 300px;
+    text-align: start;
+}
+}
