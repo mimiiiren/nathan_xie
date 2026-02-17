@@ -29,8 +29,8 @@ nav a:hover{
     color:  #6586a1;
 }
 h1{
-    font-size: 4rem;
-     letter-spacing: 15px;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 h1 a{
      color: #6586a1;
@@ -74,6 +74,10 @@ footer{
 
 /* default is mobile */
 @media (min-width: 550px) {
+h1 {
+    font-size: 60px;
+    letter-spacing: 10px;
+    }
 .hero-card{
     display: grid;
     grid-template-columns: 1fr 1fr;
